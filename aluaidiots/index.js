@@ -6,7 +6,7 @@ function initImage() {
                 style.width = "60vw";
                 style.cursor = "zoom-in";
             } else {
-                style.width = "100vw";
+                style.width = "90vw";
                 style.cursor = "zoom-out";
             }
         }
