@@ -88,7 +88,7 @@ html {
 
 .image {
     width: 60vw;
-    margin: 16px;
+    margin: 16px 16px 4px;
     cursor: zoom-in;
 }
 
@@ -96,4 +96,5 @@ html {
     color: #808080;
     font-size: 12px;
     text-align: center;
+    margin: 0px;
 }
