@@ -91,3 +91,9 @@ html {
     margin: 16px;
     cursor: zoom-in;
 }
+
+.desc {
+    color: #808080;
+    font-size: 12px;
+    text-align: center;
+}
