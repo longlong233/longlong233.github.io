@@ -1,5 +1,19 @@
 $ = mdui.$;
 
+fab = document.querySelector("#fab");
+
+fab.onclick = function () {
+    window.scrollTo(0, 0);
+};
+
+window.onscroll = function () {
+    if (window.scrollY > 400) {
+        fab.style.display = "block";
+    } else {
+        fab.style.display = "none";
+    }
+};
+
 function initImage() {
     for (var ele of document.querySelectorAll(".image")) {
         ele.insertAdjacentHTML('afterend', '<p class="desc">' + ele.alt + '</p>');
