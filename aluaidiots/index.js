@@ -1,15 +1,4 @@
-$ = jQuery;
-
-SimpleScrollbar.initEl(document.querySelector(".scroll"));
-
-function initAnchor() {
-    for (var ele of document.querySelectorAll("li>a")) {
-        ele.href = "javascript:void(0);";
-        ele.onclick = function (event) {
-            scrollbar.scrollTo(0, document.querySelector(event.target.dataset.scrollto).offsetTop, 500);
-        }
-    }
-}
+$ = mdui.$;
 
 function initImage() {
     for (var ele of document.querySelectorAll(".image")) {
@@ -27,5 +16,4 @@ function initImage() {
     }
 }
 
-initAnchor();
 initImage();
