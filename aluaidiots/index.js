@@ -1,13 +1,10 @@
 $ = mdui.$;
 
-Scrollbar.use(OverscrollPlugin);
 scrollbar = Scrollbar.init(document.querySelector(".scroll"), {
-    speed: 4.0,
+    speed: 5.0,
     damping: 0.05,
     thumbMinSize: 32,
-    alwaysShowTracks: true,
-    overscrollEffect: 'bounce',
-    overscrollDamping: 0.05
+    alwaysShowTracks: true
 });
 
 function initAnchor() {
