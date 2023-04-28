@@ -10,19 +10,6 @@ scrollbar = Scrollbar.init(document.querySelector(".scroll"), {
     overscrollDamping: 0.05
 });
 
-document.body.ontouchstart = function () {
-    document.querySelector(".scroll").style.overflow = "hidden";
-}
-document.body.ontouchmove = function () {
-    document.querySelector(".scroll").style.overflow = "scroll";
-}
-document.body.ontouchend = function () {
-    document.querySelector(".scroll").style.overflow = "scroll";
-}
-document.body.ontouchcancel = function () {
-    document.querySelector(".scroll").style.overflow = "scroll";
-}
-
 function initAnchor() {
     for (var ele of document.querySelectorAll("li>a")) {
         ele.href = "javascript:void(0);";
