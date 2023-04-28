@@ -11,7 +11,16 @@ scrollbar = Scrollbar.init(document.querySelector(".scroll"), {
 });
 
 document.body.ontouchstart = function () {
-    scrollbar.stop();
+    document.querySelector(".scroll").style.overflow = "hidden";
+}
+document.body.ontouchmove = function () {
+    document.querySelector(".scroll").style.overflow = "scroll";
+}
+document.body.ontouchend = function () {
+    document.querySelector(".scroll").style.overflow = "scroll";
+}
+document.body.ontouchcancel = function () {
+    document.querySelector(".scroll").style.overflow = "scroll";
 }
 
 function initAnchor() {
