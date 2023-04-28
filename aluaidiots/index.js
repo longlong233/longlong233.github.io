@@ -1,11 +1,6 @@
-$ = mdui.$;
+$ = jQuery;
 
-scrollbar = Scrollbar.init(document.querySelector(".scroll"), {
-    speed: 5.0,
-    damping: 0.05,
-    thumbMinSize: 32,
-    alwaysShowTracks: true
-});
+SimpleScrollbar.initEl(document.querySelector(".scroll"));
 
 function initAnchor() {
     for (var ele of document.querySelectorAll("li>a")) {
