@@ -94,6 +94,11 @@ html {
     transition-duration: 0.2s;
 }
 
+.video {
+    width: 60vw;
+    margin: 16px 16px 4px;
+}
+
 .desc {
     color: #808080;
     font-size: 12px;

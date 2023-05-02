@@ -30,4 +30,11 @@ function initImage() {
     }
 }
 
+function initVideo() {
+    for (var ele of document.querySelectorAll(".video")) {
+        ele.insertAdjacentHTML('afterend', '<p class="desc">' + ele.dataset.desc + '</p>');
+    }
+}
+
 initImage();
+initVideo();
