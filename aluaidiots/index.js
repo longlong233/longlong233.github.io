@@ -245,11 +245,11 @@ function init() {
                     }
                 } else div.style.display = "block";
                 div.dataset.opened = "true";
-                event.target.nodeName === "I" ? event.target.parentNode.style.rotate = "180deg" : event.target.style.rotate = "180deg";
+                event.target.nodeName === "I" ? event.target.parentNode.style.transform = "rotate(180deg)" : event.target.style.transform = "rotate(180deg)";
             } else {
                 div.style.display = "none";
                 div.dataset.opened = "false";
-                event.target.nodeName === "I" ? event.target.parentNode.style.rotate = "0deg" : event.target.style.rotate = "0deg";
+                event.target.nodeName === "I" ? event.target.parentNode.style.transform = "rotate(0deg)" : event.target.style.transform = "rotate(0deg)";
             }
         };
     }
