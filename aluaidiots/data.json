@@ -1,163 +1,163 @@
 {
-    idiots: [
+    "idiots": [
         {
-            id: "timestar",
-            name: "时光星球",
-            qq: "406631360",
-            data: [
+            "id": "timestar",
+            "name": "时光星球",
+            "qq": "406631360",
+            "data": [
                 {
-                    desc: "时光帝国",
-                    img: "https://s1.ax1x.com/2023/05/13/p960wyd.png",
+                    "desc": "时光帝国",
+                    "img": "https://s1.ax1x.com/2023/05/13/p960wyd.png",
                 },
                 {
-                    desc: "三条边的四边形",
-                    img: "https://s1.ax1x.com/2023/05/13/p960dQH.png",
+                    "desc": "三条边的四边形",
+                    "img": "https://s1.ax1x.com/2023/05/13/p960dQH.png",
                 },
                 {
-                    desc: "追梦人",
-                    img: "https://s1.ax1x.com/2023/05/13/p960sTP.png",
+                    "desc": "追梦人",
+                    "img": "https://s1.ax1x.com/2023/05/13/p960sTP.png",
                 },
                 {
-                    desc: "人像识别",
-                    img: "https://s1.ax1x.com/2023/05/13/p960NWD.png",
+                    "desc": "人像识别",
+                    "img": "https://s1.ax1x.com/2023/05/13/p960NWD.png",
                 },
                 {
-                    desc: "时光奇论",
-                    img: "https://s1.ax1x.com/2023/05/13/p960aSe.png",
+                    "desc": "时光奇论",
+                    "img": "https://s1.ax1x.com/2023/05/13/p960aSe.png",
                 },
                 {
-                    desc: "时光奇论2",
-                    img: "https://s1.ax1x.com/2023/05/13/p9600OA.png",
+                    "desc": "时光奇论2",
+                    "img": "https://s1.ax1x.com/2023/05/13/p9600OA.png",
                 },
                 {
-                    desc: "时说新语",
-                    img: "https://s1.ax1x.com/2023/05/13/p960DeI.png",
-                },
-            ],
+                    "desc": "时说新语",
+                    "img": "https://s1.ax1x.com/2023/05/13/p960DeI.png",
+                }
+            ]
         },
         {
-            id: "triones",
-            name: "北斗星",
-            qq: "1965654167",
-            data: [
+            "id": "triones",
+            "name": "北斗星",
+            "qq": "1965654167",
+            "data": [
                 {
-                    desc: "胡说八道",
-                    img: "https://s1.ax1x.com/2023/05/13/p960gfS.jpg",
+                    "desc": "胡说八道",
+                    "img": "https://s1.ax1x.com/2023/05/13/p960gfS.jpg",
                 },
                 {
-                    desc: "指点江山",
-                    img: "https://s1.ax1x.com/2023/05/13/p96B43D.png",
+                    "desc": "指点江山",
+                    "img": "https://s1.ax1x.com/2023/05/13/p96B43D.png",
                 },
                 {
-                    desc: "勾罕见",
-                    img: "https://s1.ax1x.com/2023/05/13/p960fyj.png",
+                    "desc": "勾罕见",
+                    "img": "https://s1.ax1x.com/2023/05/13/p960fyj.png",
                 },
                 {
-                    desc: "lua取代java",
-                    img: "https://s1.ax1x.com/2023/05/13/p960RSg.png",
+                    "desc": "lua取代java",
+                    "img": "https://s1.ax1x.com/2023/05/13/p960RSg.png",
                 },
                 {
-                    desc: "java退出舞台",
-                    img: "https://s1.ax1x.com/2023/05/13/p960cY8.png",
+                    "desc": "java退出舞台",
+                    "img": "https://s1.ax1x.com/2023/05/13/p960cY8.png",
                 },
                 {
-                    desc: "胡言乱语",
-                    img: "https://s1.ax1x.com/2023/05/13/p960hOs.png",
+                    "desc": "胡言乱语",
+                    "img": "https://s1.ax1x.com/2023/05/13/p960hOs.png",
                 },
                 {
-                    desc: "安卓apk转苹果apk",
-                    img: "https://s1.ax1x.com/2023/05/13/p960WlQ.png",
+                    "desc": "安卓apk转苹果apk",
+                    "img": "https://s1.ax1x.com/2023/05/13/p960WlQ.png",
                 },
                 {
-                    desc: "这就是未来，听北斗星说",
-                    img: "https://s1.ax1x.com/2023/05/13/p9605mn.png",
+                    "desc": "这就是未来，听北斗星说",
+                    "img": "https://s1.ax1x.com/2023/05/13/p9605mn.png",
                 },
                 {
-                    desc: "狗屁不通的数学证明",
-                    img: "https://s1.ax1x.com/2023/05/16/p92Bjl8.png",
+                    "desc": "狗屁不通的数学证明",
+                    "img": "https://s1.ax1x.com/2023/05/16/p92Bjl8.png",
                 },
                 {
-                    desc: "学校学的是淘汰品",
-                    img: "https://s1.ax1x.com/2023/05/18/p9fdGNR.png",
+                    "desc": "学校学的是淘汰品",
+                    "img": "https://s1.ax1x.com/2023/05/18/p9fdGNR.png",
                 },
                 {
-                    desc: "振动治好不育",
-                    img: "https://s1.ax1x.com/2023/07/20/pCH9rPP.png",
-                },
-            ],
+                    "desc": "振动治好不育",
+                    "img": "https://s1.ax1x.com/2023/07/20/pCH9rPP.png",
+                }
+            ]
         },
         {
-            id: "quzefei",
-            name: "曲泽飞",
-            qq: "3235314917",
-            data: [
+            "id": "quzefei",
+            "name": "曲泽飞",
+            "qq": "3235314917",
+            "data": [
                 {
-                    desc: "心系苍生",
-                    img: "https://s1.ax1x.com/2023/05/13/p9606Ff.png",
-                },
-            ],
+                    "desc": "心系苍生",
+                    "img": "https://s1.ax1x.com/2023/05/13/p9606Ff.png",
+                }
+            ]
         },
         {
-            id: "yijianpa",
-            name: "一键爬",
-            qq: "1053062792",
-            data: [
+            "id": "yijianpa",
+            "name": "一键爬",
+            "qq": "1053062792",
+            "data": [
                 {
-                    desc: "垃圾AS",
-                    img: "https://s1.ax1x.com/2023/06/25/pCNRIE9.png",
-                },
-            ],
+                    "desc": "垃圾AS",
+                    "img": "https://s1.ax1x.com/2023/06/25/pCNRIE9.png",
+                }
+            ]
         },
         {
-            id: "starboy",
-            name: "star哥",
-            qq: "2821981550",
-            data: [
+            "id": "starboy",
+            "name": "star哥",
+            "qq": "2821981550",
+            "data": [
                 {
-                    desc: "比一比谁的star多",
-                    img: "https://s1.ax1x.com/2023/07/07/pCchvsU.png",
+                    "desc": "比一比谁的star多",
+                    "img": "https://s1.ax1x.com/2023/07/07/pCchvsU.png",
                 },
                 {
-                    desc: "不用md用nm",
-                    img: "https://s1.ax1x.com/2023/07/07/pCchxLF.png",
-                },
-            ],
-        },
+                    "desc": "不用md用nm",
+                    "img": "https://s1.ax1x.com/2023/07/07/pCchxLF.png",
+                }
+            ]
+        }
     ],
-    trashes: [
+    "trashes": [
         {
-            id: "timestar",
-            name: "时光星球",
-            data: [
+            "id": "timestar",
+            "name": "时光星球",
+            "data": [
                 {
-                    desc: "智能出题语音机器人",
-                    video: "https://lyzz.top/file/24658",
+                    "desc": "智能出题语音机器人",
+                    "video": "https://lyzz.top/file/24658",
                 },
                 {
-                    desc: "时光大制作",
-                    video: "https://lyzz.top/file/24657",
-                },
-            ],
+                    "desc": "时光大制作",
+                    "video": "https://lyzz.top/file/24657",
+                }
+            ]
         },
         {
-            id: "triones",
-            name: "北斗星",
-            data: [],
+            "id": "triones",
+            "name": "北斗星",
+            "data": []
         },
         {
-            id: "quzefei",
-            name: "曲泽飞",
-            data: [],
+            "id": "quzefei",
+            "name": "曲泽飞",
+            "data": []
         },
         {
-            id: "yijianpa",
-            name: "一键爬",
-            data: [],
+            "id": "yijianpa",
+            "name": "一键爬",
+            "data": []
         },
         {
-            id: "starboy",
-            name: "star哥",
-            data: [],
-        },
-    ],
+            "id": "starboy",
+            "name": "star哥",
+            "data": []
+        }
+    ]
 }
