@@ -48,6 +48,10 @@ data = {
                 {
                     "desc": "时说新语",
                     "img": "https://s1.ax1x.com/2023/05/13/p960DeI.png"
+                },
+                {
+                    "desc": "GPT的师父",
+                    "img": "https://s1.ax1x.com/2023/08/29/pPa4i0H.png"
                 }
             ]
         },
