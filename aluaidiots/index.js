@@ -23,35 +23,35 @@ data = {
             "data": [
                 {
                     "desc": "时光帝国",
-                    "img": "https://s1.ax1x.com/2023/05/13/p960wyd.png"
+                    "img": "https://cdnjson.com/images/2023/08/29/timestar-503b8d62912dc1f4.png"
                 },
                 {
                     "desc": "三条边的四边形",
-                    "img": "https://s1.ax1x.com/2023/05/13/p960dQH.png"
+                    "img": "https://cdnjson.com/images/2023/08/29/timestar-5694849cac37efcd.png"
                 },
                 {
                     "desc": "追梦人",
-                    "img": "https://s1.ax1x.com/2023/05/13/p960sTP.png"
+                    "img": "https://cdnjson.com/images/2023/08/29/timestar-1d06154a92032f2e.png"
                 },
                 {
                     "desc": "人像识别",
-                    "img": "https://s1.ax1x.com/2023/05/13/p960NWD.png"
+                    "img": "https://cdnjson.com/images/2023/08/29/timestar-.png"
                 },
                 {
                     "desc": "时光奇论",
-                    "img": "https://s1.ax1x.com/2023/05/13/p960aSe.png"
+                    "img": "https://cdnjson.com/images/2023/08/29/timestar-87985610e685faa9.png"
                 },
                 {
                     "desc": "时光奇论2",
-                    "img": "https://s1.ax1x.com/2023/05/13/p9600OA.png"
+                    "img": "https://cdnjson.com/images/2023/08/29/timestar-294847d259c00f535.png"
                 },
                 {
                     "desc": "时说新语",
-                    "img": "https://s1.ax1x.com/2023/05/13/p960DeI.png"
+                    "img": "https://cdnjson.com/images/2023/08/29/timestar-d9cf2cb04534bca1.png"
                 },
                 {
                     "desc": "GPT的师父",
-                    "img": "https://s1.ax1x.com/2023/08/29/pPa4i0H.png"
+                    "img": "https://cdnjson.com/images/2023/08/29/timestar-GPT.png"
                 }
             ]
         },
@@ -62,47 +62,47 @@ data = {
             "data": [
                 {
                     "desc": "胡说八道",
-                    "img": "https://s1.ax1x.com/2023/05/13/p960gfS.jpg"
+                    "img": "https://cdnjson.com/images/2023/08/29/triones-.jpg"
                 },
                 {
                     "desc": "指点江山",
-                    "img": "https://s1.ax1x.com/2023/05/13/p96B43D.png"
+                    "img": "https://cdnjson.com/images/2023/08/29/triones-a8b42232243d7898.png"
                 },
                 {
                     "desc": "勾罕见",
-                    "img": "https://s1.ax1x.com/2023/05/13/p960fyj.png"
+                    "img": "https://cdnjson.com/images/2023/08/29/triones-.png"
                 },
                 {
                     "desc": "lua取代java",
-                    "img": "https://s1.ax1x.com/2023/05/13/p960RSg.png"
+                    "img": "https://cdnjson.com/images/2023/08/29/triones-luajava.png"
                 },
                 {
                     "desc": "java退出舞台",
-                    "img": "https://s1.ax1x.com/2023/05/13/p960cY8.png"
+                    "img": "https://cdnjson.com/images/2023/08/29/triones-java.png"
                 },
                 {
                     "desc": "胡言乱语",
-                    "img": "https://s1.ax1x.com/2023/05/13/p960hOs.png"
+                    "img": "https://cdnjson.com/images/2023/08/29/triones-e64bb351fbc737ce.png"
                 },
                 {
                     "desc": "安卓apk转苹果apk",
-                    "img": "https://s1.ax1x.com/2023/05/13/p960WlQ.png"
+                    "img": "https://cdnjson.com/images/2023/08/29/triones-apkapk.png"
                 },
                 {
                     "desc": "这就是未来，听北斗星说",
-                    "img": "https://s1.ax1x.com/2023/05/13/p9605mn.png"
+                    "img": "https://cdnjson.com/images/2023/08/29/triones-3746efffebb50940.png"
                 },
                 {
                     "desc": "狗屁不通的数学证明",
-                    "img": "https://s1.ax1x.com/2023/05/16/p92Bjl8.png"
+                    "img": "https://cdnjson.com/images/2023/08/29/triones-faedbeb1f307119c.png"
                 },
                 {
                     "desc": "学校学的是淘汰品",
-                    "img": "https://s1.ax1x.com/2023/05/18/p9fdGNR.png"
+                    "img": "https://cdnjson.com/images/2023/08/29/triones-34b19135219208f8.png"
                 },
                 {
                     "desc": "振动治好不育",
-                    "img": "https://s1.ax1x.com/2023/07/20/pCH9rPP.png"
+                    "img": "https://cdnjson.com/images/2023/08/29/triones-654a14f88869c20d.png"
                 }
             ]
         },
@@ -113,7 +113,7 @@ data = {
             "data": [
                 {
                     "desc": "心系苍生",
-                    "img": "https://s1.ax1x.com/2023/05/13/p9606Ff.png"
+                    "img": "https://cdnjson.com/images/2023/08/29/quzefei-.png"
                 }
             ]
         },
@@ -124,7 +124,7 @@ data = {
             "data": [
                 {
                     "desc": "垃圾AS",
-                    "img": "https://s1.ax1x.com/2023/06/25/pCNRIE9.png"
+                    "img": "https://cdnjson.com/images/2023/08/29/yijianpa-AS.png"
                 }
             ]
         },
@@ -135,11 +135,11 @@ data = {
             "data": [
                 {
                     "desc": "比一比谁的star多",
-                    "img": "https://s1.ax1x.com/2023/07/07/pCchvsU.png"
+                    "img": "https://cdnjson.com/images/2023/08/29/starboy-star.png"
                 },
                 {
                     "desc": "不用md用nm",
-                    "img": "https://s1.ax1x.com/2023/07/07/pCchxLF.png"
+                    "img": "https://cdnjson.com/images/2023/08/29/starboy-mdnm.png"
                 }
             ]
         }
