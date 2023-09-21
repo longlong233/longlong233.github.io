@@ -111,6 +111,10 @@ data = {
                 {
                     "desc": "java快淘汰了",
                     "img": "https://cdnjson.com/images/2023/09/18/triones-java.png"
+                },
+                {
+                    "desc": "下头男",
+                    "img": "https://cdnjson.com/images/2023/09/21/triones-.jpg"
                 }
             ]
         },
