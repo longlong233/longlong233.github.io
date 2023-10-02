@@ -99,6 +99,14 @@
                 {
                     "desc": "下头男",
                     "img": "https://cdnjson.com/images/2023/09/21/triones-.jpg"
+                },
+                {
+                    "desc": "新一代lua语言",
+                    "img": "https://cdnjson.com/images/2023/10/03/triones-lua.png"
+                },
+                {
+                    "desc": "java提出html",
+                    "img": "https://cdnjson.com/images/2023/10/03/triones-javahtml.png"
                 }
             ]
         },
