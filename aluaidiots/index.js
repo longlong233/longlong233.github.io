@@ -52,6 +52,10 @@ data = {
                 {
                     "desc": "GPT的师父",
                     "img": "https://cdnjson.com/images/2023/08/29/timestar-GPT.png"
+                },
+                {
+                    "desc": "CatGPT",
+                    "img": "https://cdnjson.com/images/2023/10/09/timestar-CatGPT.png"
                 }
             ]
         },
