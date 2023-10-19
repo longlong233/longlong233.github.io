@@ -127,6 +127,10 @@ data = {
                 {
                     "desc": "java提出html",
                     "img": "https://cdnjson.com/images/2023/10/03/triones-javahtml.png"
+                },
+                {
+                    "desc": "神笔一点",
+                    "img": "https://cdnjson.com/images/2023/10/19/triones-.jpg"
                 }
             ]
         },
