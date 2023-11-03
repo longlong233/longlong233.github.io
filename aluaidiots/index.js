@@ -210,25 +210,98 @@ data = {
     ]
 };
 
+function toggleEntry(idiot, event, i) {
+    var div = document.getElementById(idiot.id + "-container");
+    if (div.dataset.opened === "false") {
+        if (div.innerHTML === "") {
+            for (var idiot_data of idiot.data) {
+                var img = document.createElement("img");
+                img.id = idiot.id + "-" + idiot_data.desc;
+                img.className = "image mdui-center";
+                img.src = idiot_data.img;
+                img.alt = idiot_data.desc;
+                div.appendChild(img);
+                div.innerHTML += '<p class="desc">' + idiot_data.desc + '</p>';
+            }
+            for (var trash_data of data.trashes[i].data) {
+                div.innerHTML += '<video id="' + idiot.id + '-' + trash_data.desc + '" class="video mdui-center" controls="controls">' +
+                    '<source src="' + trash_data.video + '" type="video/mp4" /></video><p class="desc">' + trash_data.desc + '</p>';
+            }
+            for (var img of div.querySelectorAll("img")) {
+                img.onclick = function (ev) {
+                    var style = ev.target.style;
+                    if (style.cursor === "zoom-out") {
+                        style.width = "60vw";
+                        style.cursor = "zoom-in";
+                    } else {
+                        style.width = "90vw";
+                        style.cursor = "zoom-out";
+                    }
+                };
+            }
+        } else div.style.display = "block";
+        div.dataset.opened = "true";
+        document.getElementById(idiot.id + "-open").style.transform = "rotate(180deg)";
+    } else {
+        div.style.display = "none";
+        div.dataset.opened = "false";
+        document.getElementById(idiot.id + "-open").style.transform = "rotate(0deg)";
+    }
+}
+
+function scrollToElement(selector) {
+    document.querySelector(selector).scrollIntoView();
+}
+
 function init() {
     var idiots_ul = document.querySelector("#idiots>ul"), trashes_ul = document.querySelector("#trashes>ul");
-    for (var idiot of data.idiots) {
+    for (var i in data.idiots) {
+        var idiot = data.idiots[i];
         var li = document.createElement("li");
         li.innerHTML = '<a href="#' + idiot.id + '">' + idiot.name + '</a>';
         var ul = document.createElement("ul");
         for (var idiot_data of idiot.data) {
-            ul.innerHTML += '<li><a href="#' + idiot.id + '-' + idiot_data.desc + '">' + idiot_data.desc + '</a></li>';
+            var lj = document.createElement("li");
+            lj.dataset.i = i;
+            lj.dataset.desc = idiot_data.desc;
+            lj.innerHTML = '<a href="#' + idiot.id + '-' + idiot_data.desc + '">' + idiot_data.desc + '</a>';
+            lj.onclick = function (event) {
+                var i = Number(event.target.dataset.i || event.target.parentNode.dataset.i);
+                var desc = event.target.dataset.desc || event.target.parentNode.dataset.desc;
+                var idiot = data.idiots[i];
+                if (document.getElementById(idiot.id + "-container").dataset.opened === "false") toggleEntry(idiot, event, i);
+                scrollToElement("#" + idiot.id + '-' + desc);
+                setTimeout(function () {
+                    scrollToElement("#" + idiot.id + '-' + desc);
+                }, 1000);
+            };
+            ul.appendChild(lj);
         }
         li.appendChild(ul);
         idiots_ul.appendChild(li);
     }
-    for (var trash of data.trashes) {
+    for (var i in data.trashes) {
+        var trash = data.trashes[i];
         if (trash.data.length > 0) {
             var li = document.createElement("li");
             li.innerHTML = '<a href="#' + trash.id + '">' + trash.name + '</a>';
             var ul = document.createElement("ul");
             for (var trash_data of trash.data) {
-                ul.innerHTML += '<li><a href="#' + trash.id + '-' + trash_data.desc + '">' + trash_data.desc + '</a></li>';
+                var lj = document.createElement("li");
+                lj.dataset.i = i;
+                lj.dataset.desc = trash_data.desc;
+                lj.innerHTML = '<a href="#' + trash.id + '-' + trash_data.desc + '">' + trash_data.desc + '</a>';
+                lj.onclick = function (event) {
+                    var i = Number(event.target.dataset.i || event.target.parentNode.dataset.i);
+                    var desc = event.target.dataset.desc || event.target.parentNode.dataset.desc;
+                    var trash = data.trashes[i];
+                    if (document.getElementById(trash.id + "-container").dataset.opened === "false") toggleEntry(data.idiots[i], event, i);
+                    scrollToElement("#" + trash.id + '-' + desc);
+                    setTimeout(function () {
+                        scrollToElement("#" + trash.id + '-' + desc);
+                    }, 1000);
+                };
+                ul.appendChild(lj);
             }
             li.appendChild(ul);
             trashes_ul.appendChild(li);
@@ -247,42 +320,7 @@ function init() {
         document.getElementById(idiot.id + "-open").onclick = function (event) {
             var i = Number(event.target.dataset.i || event.target.parentNode.dataset.i);
             var idiot = data.idiots[i];
-            var div = document.getElementById(idiot.id + "-container");
-            if (div.dataset.opened === "false") {
-                if (div.innerHTML === "") {
-                    for (var idiot_data of idiot.data) {
-                        var img = document.createElement("img");
-                        img.id = idiot.id + "-" + idiot_data.desc;
-                        img.className = "image mdui-center";
-                        img.src = idiot_data.img;
-                        img.alt = idiot_data.desc;
-                        div.appendChild(img);
-                        div.innerHTML += '<p class="desc">' + idiot_data.desc + '</p>';
-                    }
-                    for (var trash_data of data.trashes[i].data) {
-                        div.innerHTML += '<video id="' + idiot.id + '-' + trash_data.desc + '" class="video mdui-center" controls="controls">' +
-                            '<source src="' + trash_data.video + '" type="video/mp4" /></video><p class="desc">' + trash_data.desc + '</p>';
-                    }
-                    for (var img of div.querySelectorAll("img")) {
-                        img.onclick = function (ev) {
-                            var style = ev.target.style;
-                            if (style.cursor === "zoom-out") {
-                                style.width = "60vw";
-                                style.cursor = "zoom-in";
-                            } else {
-                                style.width = "90vw";
-                                style.cursor = "zoom-out";
-                            }
-                        };
-                    }
-                } else div.style.display = "block";
-                div.dataset.opened = "true";
-                event.target.nodeName === "I" ? event.target.parentNode.style.transform = "rotate(180deg)" : event.target.style.transform = "rotate(180deg)";
-            } else {
-                div.style.display = "none";
-                div.dataset.opened = "false";
-                event.target.nodeName === "I" ? event.target.parentNode.style.transform = "rotate(0deg)" : event.target.style.transform = "rotate(0deg)";
-            }
+            toggleEntry(idiot, event, i);
         };
     }
 }
