@@ -19,7 +19,7 @@ function toggleEntry(idiot, i) {
                 const img = document.createElement("img");
                 img.id = idiot.id + "-" + idiot_data.desc;
                 img.className = "image mdui-center";
-                img.src = idiot_data.img;
+                img.src = `https://gitee.com/mykanon/mykanon/raw/master/aluaidiots/images/${idiot.id}-${idiot_data.desc}.png`;
                 img.alt = idiot_data.desc;
                 fragment.appendChild(img);
 
@@ -36,7 +36,7 @@ function toggleEntry(idiot, i) {
                 video.setAttribute("controls", "controls");
 
                 const source = document.createElement("source");
-                source.src = trash_data.video;
+                source.src = `https://gitee.com/mykanon/mykanon/raw/master/aluaidiots/videos/${idiot.id}-${trash_data.desc}.mp4`;
                 source.type = "video/mp4";
                 video.appendChild(source);
 
