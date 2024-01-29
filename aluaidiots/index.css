@@ -88,6 +88,7 @@ nav>ul {
 
 .image {
     width: 60vw;
+    max-width: 600px;
     margin: 16px 16px 4px;
     cursor: zoom-in;
     -webkit-transition-duration: 0.2s;
@@ -96,6 +97,7 @@ nav>ul {
 
 .video {
     width: 60vw;
+    max-width: 600px;
     margin: 16px 16px 4px
 }
 
