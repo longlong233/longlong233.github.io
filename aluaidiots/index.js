@@ -56,11 +56,11 @@ function toggleEntry(idiot, i) {
                     const style = ev.target.style;
                     if (style.cursor === "zoom-out") {
                         style.width = "60vw";
-                        style.maxWidth = "600px";
+                        style.maxWidth = "400px";
                         style.cursor = "zoom-in";
                     } else {
                         style.width = "90vw";
-                        style.maxWidth = "900px";
+                        style.maxWidth = "600px";
                         style.cursor = "zoom-out";
                     }
                 });
