@@ -119,8 +119,8 @@ nav>ul {
 
 .mdui-typo>mdui-button-icon {
     float: right;
-    margin-top: 1.2em;
-    margin-bottom: .6em;
+    margin-top: 0.6em;
+    margin-bottom: 0.6em;
     line-height: 1.35
 }
 
