@@ -164,7 +164,7 @@ function init() {
             </mdui-icon>
           </button>
         </div>
-        <p class="contact">(QQ: <a href="mqqapi://card/show_pslcard?src_type=internal&source=sharecard&version=1&uin=${idiot.qq}">${idiot.qq}</a>)</p>
+        <p class="contact" style="margin:0">(QQ: <a href="mqqapi://card/show_pslcard?src_type=internal&source=sharecard&version=1&uin=${idiot.qq}">${idiot.qq}</a>)</p>
         <div id="${idiot.id}-container" class="center" data-opened="false"></div>`;
         container.appendChild(chapter);
 
